@@ -1,9 +1,10 @@
 import insertion
-
+import merge
 
 def main():
-    print(insertion.insertion([213,123,1,312,31,23,1]))
-
-
+    result = []
+    A = [18,2,23,32,12,1,4,3,22]
+    merge.merge_sort(A)
+    print(A)
 if __name__ == "__main__" :
     main()
